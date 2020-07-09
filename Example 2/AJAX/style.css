@@ -1,0 +1,28 @@
+
+
+h1{
+    text-align: center;
+}
+
+
+#users {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.user {
+  display: flex;
+  flex-flow: row wrap;
+  margin-bottom: 1rem;
+  background-color: bisque;
+
+}
+
+.user ul{
+    list-style: none;
+    font-family: Pacifico, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.user img{
+    max-width: 20%;
+}
